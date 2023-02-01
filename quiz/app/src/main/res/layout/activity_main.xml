@@ -11,20 +11,22 @@
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="10dp"
         tools:layout_editor_absoluteY="0dp">
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="275dp"
-            app:srcCompat="@drawable/header" />
+            app:srcCompat="@mipmap/header" />
 
 
         <LinearLayout
             android:id="@+id/btnProfil"
-            android:layout_width="390dp"
+            android:layout_width="370dp"
             android:layout_height="151dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:background="@color/orange"
             android:orientation="horizontal">
 
@@ -54,15 +56,15 @@
             </LinearLayout>
 
             <ImageView
-                android:layout_width="100dp"
+                android:layout_width="80dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/user2" />
+                app:srcCompat="@mipmap/user2" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/btnTodoList"
-            android:layout_width="390dp"
+            android:layout_width="370dp"
             android:layout_height="151dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="14dp"
@@ -95,10 +97,10 @@
             </LinearLayout>
 
             <ImageView
-                android:layout_width="141dp"
+                android:layout_width="131dp"
                 android:layout_height="151dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/menu1" />
+                app:srcCompat="@mipmap/menu1" />
         </LinearLayout>
     </LinearLayout>
 
